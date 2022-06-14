@@ -1,0 +1,36 @@
+body{
+    background-color: purple;
+
+}
+.form{
+    background-color: rgba(240, 248, 255, 0.852);
+    border-radius: 16px;
+    filter: drop-shadow(4px 8px 20px rgba(255, 255, 255, 0.1));
+    margin: 10% 30%;
+}
+h1{
+    padding: 8px 5px -5px 5px;
+}
+.btn, #inp, #place{
+    padding: 10px;
+    font-size: 0.8em;
+    outline: none;
+    border: 2px black solid;
+    border-radius: 8px;
+    background-color: rgba(128, 128, 128, 0.106);
+    color: black;
+    margin: 1em;
+}
+.btn:hover{
+    transform: scale(1.1);
+    border-radius: 2px;
+    transition: all 0.1s ease-in-out;
+}
+#inp:hover, #place:hover{
+    transform: scale(1.3);
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+}
+h2{
+    color: white;
+}
