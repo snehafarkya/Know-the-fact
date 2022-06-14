@@ -4,15 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Facts</title>
     <link rel="stylesheet" href="../static/css.css">
 </head>
 <body>
+    <style>
+        body{
+            background-image: url("https://epd.eu/wp-content/uploads/2020/07/AdobeStock_204993923-1024x630.jpeg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        
+            
+        }
+        .h1{
+            font-size: 1.9em;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-weight: 700;
+            color: black;
+            word-spacing: 2px;
+            font-style: italic;
+            text-align: right;
+            margin-right: 0.7em;
+        }
+    </style>
     <center>
     {% for message in get_flashed_messages() %}
-        <h2>{{ message }}</h2>   
+        <h1 class="h1">{{ message }}</h1>   
         {% endfor %} 
-        <br>
+        <br> 
     
         <br>
     </center>
