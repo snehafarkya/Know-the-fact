@@ -5,16 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facts</title>
-    <link rel="stylesheet" href="../static/css.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css.css')}}">
 </head>
 <body>
     <style>
         body{
             background-image: url("https://epd.eu/wp-content/uploads/2020/07/AdobeStock_204993923-1024x630.jpeg");
             background-size: cover;
-            background-repeat: no-repeat;
-        
-            
+            background-repeat: no-repeat; 
         }
         .h1{
             font-size: 1.9em;
@@ -35,5 +33,9 @@
     
         <br>
     </center>
+
+    <a href="/">
+        <button>Return Home</button>
+      </a> 
 </body>
 </html>
