@@ -4,9 +4,9 @@ import random
 
 app = Flask(__name__)
 app.secret_key = "snega12233"
-@app.route("/base")
 
 
+@app.route("/")
 def home():
     a= random.randrange(1,6)
     return render_template("index.html") 
